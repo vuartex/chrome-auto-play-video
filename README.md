@@ -1,10 +1,8 @@
 ENG
-
 Auto Video Play - This Chrome extension automatically plays paused videos on any webpage. 
 It continuously checks for a <video> element and ensures it remains playing, making it ideal for uninterrupted video playback. 
 
 TUR
-
 Auto Video Play - Bu bir Chrome eklentisidir. Web sitelerinde duran videoları otomatik olarak oynatır. 
 Chrome’a yükleyerek, duraklatılmış videoların otomatik olarak devam etmesini sağlayabilirsiniz. 🚀
 
