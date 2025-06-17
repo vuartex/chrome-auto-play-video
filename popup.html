@@ -3,14 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Auto Play Video Settings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            width: 250px;
+        }
+        input[type="text"] {
+            margin-top: 5px;
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            margin-top: 10px;
+            width: 100%;
+            padding: 6px;
+        }
+        hr {
+            margin: 15px 0;
+        }
+    </style>
 </head>
 <body>
     <h2>Auto Play Video</h2>
 
-	<label>
-  	  <input type="checkbox" id="autoRefresh"> 10 Dakikada Bir Sayfayı Yenile
-	</label>
-	<br>
+    <label>
+        <input type="checkbox" id="autoRefresh"> 10 Dakikada Bir Sayfayı Yenile
+    </label>
+    <br>
 
     <label>
         <input type="checkbox" id="disableAll"> Uzantıyı Kapat
@@ -24,7 +45,17 @@
         <input type="checkbox" id="pauseOnTabChange"> Sekme Değiştiğinde Durdur
     </label>
     <br>
+    <label>
+        <input type="checkbox" id="speedUp"> Hızlandır (16x)
+    </label>
+    <br>
     <button id="save">Kaydet</button>
+
+    <hr>
+    <h3>🎯 Video İzlenmiş Gibi Göster</h3>
+    <input type="text" id="videoIdInput" placeholder="Video ID giriniz">
+    <button id="markWatched">İzlenmiş Olarak Kaydet</button>
+
     <script src="popup.js"></script>
 </body>
 </html>
